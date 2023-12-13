@@ -1,6 +1,7 @@
-import readlineSync from "readline-sync";
+import readlineSync from 'readline-sync';
 
-const showGreeting = () => console.log("Welcome to the Brain Games!");
-const getName = () => readlineSync.question("May I have your name? ");
+// eslint-disable-next-line no-console
+const showGreeting = () => console.log('Welcome to the Brain Games!');
+const getName = () => readlineSync.question('May I have your name? ');
 
 export { showGreeting, getName };

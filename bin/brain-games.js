@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-import { showGreeting, getName } from "../src/cli.js";
+// eslint-disable-next-line import/extensions
+import { showGreeting, getName } from '../src/cli.js';
 
 showGreeting();
-const name = getName();
+getName();
