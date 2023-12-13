@@ -5,4 +5,4 @@ import { greeting } from '../src/engine.js';
 import { startGame } from '../src/engine.js';
 
 const name = greeting();
-startGame(name);
+startGame('even', name);
