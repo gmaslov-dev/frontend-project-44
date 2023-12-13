@@ -1,7 +1,7 @@
+/* eslint-disable no-console */
 import readlineSync from 'readline-sync';
 
-// eslint-disable-next-line no-console
-const showGreeting = () => console.log('Welcome to the Brain Games!');
-const getName = () => readlineSync.question('May I have your name? ');
+const getUserData = (message) => readlineSync.question(message);
+const showMessage = (message) => console.log(message);
 
-export { showGreeting, getName };
+export { getUserData, showMessage };

@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 // eslint-disable-next-line import/extensions
-import { showGreeting, getName } from '../src/cli.js';
+import greeting from '../src/engine.js';
 
-showGreeting();
-getName();
+greeting();
